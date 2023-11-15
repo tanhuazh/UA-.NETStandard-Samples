@@ -250,6 +250,12 @@ namespace Opc.Ua.Sample.Controls
                 return;
             }
 
+            if (m_session != sender)
+            {
+                // just in case if it is not for current session
+                return;
+            }
+
             if (sender != null && sender.Endpoint != null)
             {
                 ServerUrlLB.Text = Utils.Format(
