@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -111,6 +111,22 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\UA-.NETStandard\Libraries\Opc.Ua.Configuration\Opc.Ua.Configuration.csproj">
+      <Project>{8eb5cbe3-ac56-4e78-93be-8b454c508a32}</Project>
+      <Name>Opc.Ua.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\UA-.NETStandard\Libraries\Opc.Ua.Server\Opc.Ua.Server.csproj">
+      <Project>{c2c23462-50c8-4341-abcd-64a30858c501}</Project>
+      <Name>Opc.Ua.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\UA-.NETStandard\Stack\Opc.Ua.Bindings.Https\Opc.Ua.Bindings.Https.csproj">
+      <Project>{0b434af1-0f9e-4802-98d7-0bcdf73d8c78}</Project>
+      <Name>Opc.Ua.Bindings.Https</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\UA-.NETStandard\Stack\Opc.Ua.Core\Opc.Ua.Core.csproj">
+      <Project>{735c6507-33de-41a6-900a-b8a95fcbe408}</Project>
+      <Name>Opc.Ua.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ClientControls.Net4\UA Client Controls.csproj">
       <Project>{A247D2EE-14FC-463D-A9BA-6CFF1EF22B7A}</Project>
       <Name>UA Client Controls</Name>
@@ -144,9 +160,6 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions">
       <Version>7.0.1</Version>
-    </PackageReference>
-    <PackageReference Include="OPCFoundation.NetStandard.Opc.Ua.Bindings.Https">
-      <Version>1.4.372.76</Version>
     </PackageReference>
   </ItemGroup>
   <PropertyGroup>

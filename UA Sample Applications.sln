@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Sample", "Samples\Opc.Ua.Sample\Opc.Ua.Sample.csproj", "{FD51D47C-DCCE-4FFC-988B-F330D9135166}"
 EndProject
@@ -14,6 +14,20 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Sample Controls", "Samples\Controls.Net4\UA Sample Controls.csproj", "{92AE819B-4938-4502-AC32-67063F9893CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UA Sample Client", "Samples\Client.Net4\UA Sample Client.csproj", "{D7601329-530D-4537-B9B9-D9D53D5F81F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Core", "..\UA-.NETStandard\Stack\Opc.Ua.Core\Opc.Ua.Core.csproj", "{735C6507-33DE-41A6-900A-B8A95FCBE408}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Server", "..\UA-.NETStandard\Libraries\Opc.Ua.Server\Opc.Ua.Server.csproj", "{C2C23462-50C8-4341-ABCD-64A30858C501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Configuration", "..\UA-.NETStandard\Libraries\Opc.Ua.Configuration\Opc.Ua.Configuration.csproj", "{8EB5CBE3-AC56-4E78-93BE-8B454C508A32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Bindings.Https", "..\UA-.NETStandard\Stack\Opc.Ua.Bindings.Https\Opc.Ua.Bindings.Https.csproj", "{0B434AF1-0F9E-4802-98D7-0BCDF73D8C78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Client.ComplexTypes", "..\UA-.NETStandard\Libraries\Opc.Ua.Client.ComplexTypes\Opc.Ua.Client.ComplexTypes.csproj", "{989A79D7-7C9C-4946-90AD-B67A3EC60A60}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Client", "..\UA-.NETStandard\Libraries\Opc.Ua.Client\Opc.Ua.Client.csproj", "{D2B618A0-9219-46DA-8058-D17B4A2268FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Opc.Ua.Security.Certificates", "..\UA-.NETStandard\Libraries\Opc.Ua.Security.Certificates\Opc.Ua.Security.Certificates.csproj", "{57EF2F10-9CAF-4A9A-90DC-41CF0D793D8D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +59,34 @@ Global
 		{D7601329-530D-4537-B9B9-D9D53D5F81F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7601329-530D-4537-B9B9-D9D53D5F81F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7601329-530D-4537-B9B9-D9D53D5F81F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{735C6507-33DE-41A6-900A-B8A95FCBE408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735C6507-33DE-41A6-900A-B8A95FCBE408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735C6507-33DE-41A6-900A-B8A95FCBE408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735C6507-33DE-41A6-900A-B8A95FCBE408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C23462-50C8-4341-ABCD-64A30858C501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C23462-50C8-4341-ABCD-64A30858C501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C23462-50C8-4341-ABCD-64A30858C501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C23462-50C8-4341-ABCD-64A30858C501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EB5CBE3-AC56-4E78-93BE-8B454C508A32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EB5CBE3-AC56-4E78-93BE-8B454C508A32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EB5CBE3-AC56-4E78-93BE-8B454C508A32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EB5CBE3-AC56-4E78-93BE-8B454C508A32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B434AF1-0F9E-4802-98D7-0BCDF73D8C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B434AF1-0F9E-4802-98D7-0BCDF73D8C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B434AF1-0F9E-4802-98D7-0BCDF73D8C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B434AF1-0F9E-4802-98D7-0BCDF73D8C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989A79D7-7C9C-4946-90AD-B67A3EC60A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989A79D7-7C9C-4946-90AD-B67A3EC60A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989A79D7-7C9C-4946-90AD-B67A3EC60A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989A79D7-7C9C-4946-90AD-B67A3EC60A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B618A0-9219-46DA-8058-D17B4A2268FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B618A0-9219-46DA-8058-D17B4A2268FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B618A0-9219-46DA-8058-D17B4A2268FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B618A0-9219-46DA-8058-D17B4A2268FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57EF2F10-9CAF-4A9A-90DC-41CF0D793D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57EF2F10-9CAF-4A9A-90DC-41CF0D793D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57EF2F10-9CAF-4A9A-90DC-41CF0D793D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57EF2F10-9CAF-4A9A-90DC-41CF0D793D8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

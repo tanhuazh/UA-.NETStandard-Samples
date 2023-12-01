@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1145
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UA Xamarin Client", "Samples\XamarinClient\XamarinClient\UA Xamarin Client.csproj", "{3A624318-FA6E-404B-8BAC-3AF8DFA49F1E}"
 EndProject
@@ -228,6 +228,8 @@ Global
 		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.AppStore|x86.Build.0 = Release|x86
 		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.AppStore|x86.Deploy.0 = Release|x86
 		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.Debug|Any CPU.Build.0 = Debug|x86
+		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.Debug|Any CPU.Deploy.0 = Debug|x86
 		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.Debug|ARM.ActiveCfg = Debug|ARM
 		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.Debug|ARM.Build.0 = Debug|ARM
 		{F71BCE6C-4071-42A8-894F-185AFD3427A4}.Debug|ARM.Deploy.0 = Debug|ARM
