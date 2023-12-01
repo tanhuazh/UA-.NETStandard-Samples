@@ -57,7 +57,7 @@
       <StorePath>%CommonApplicationData%\OPC Foundation\pki\trustedUser</StorePath>
     </TrustedUserCertificates>
 
-    <AutoAcceptUntrustedCertificates>True</AutoAcceptUntrustedCertificates>
+    <AutoAcceptUntrustedCertificates>true</AutoAcceptUntrustedCertificates>
   </SecurityConfiguration>
 
 

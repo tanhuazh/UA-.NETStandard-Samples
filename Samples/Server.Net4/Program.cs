@@ -56,6 +56,7 @@ namespace Opc.Ua.Sample
             {
                 application.LoadApplicationConfiguration(false).Wait();
 
+                application.ApplicationConfiguration.SecurityConfiguration.AutoAcceptUntrustedCertificates = true;
                 application.ApplicationConfiguration.CertificateValidator.CertificateValidation += (sender, e) =>
                 {
                     e.Accept = true;
