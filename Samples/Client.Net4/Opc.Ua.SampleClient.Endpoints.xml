@@ -10,7 +10,7 @@
         opc.tcp://localhost:61210/UA/SampleClient // -->
     <ua:ConfiguredEndpoint>
       <ua:Endpoint>
-        <EndpointUrl>opc.tcp://localhost:61210/UA/SampleClient</EndpointUrl>
+        <EndpointUrl>opc.tcp://localhost:41210/UA/SampleClient</EndpointUrl>
         <SecurityMode>SignAndEncrypt_3</SecurityMode>
         <SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256</SecurityPolicyUri>
         <UserIdentityTokens>

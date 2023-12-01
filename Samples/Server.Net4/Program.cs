@@ -56,6 +56,11 @@ namespace Opc.Ua.Sample
             {
                 application.LoadApplicationConfiguration(false).Wait();
 
+                application.ApplicationConfiguration.CertificateValidator.CertificateValidation += (sender, e) =>
+                {
+                    e.Accept = true;
+                };
+
                 // check the application certificate.
                 bool certOK = application.CheckApplicationInstanceCertificate(false, 0).Result;
                 if (!certOK)

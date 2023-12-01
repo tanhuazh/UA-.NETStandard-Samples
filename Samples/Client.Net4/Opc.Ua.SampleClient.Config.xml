@@ -156,8 +156,8 @@
          For example, a URL used for an endpoint which uses the Basic256 security policy would look like this:
          http://localhost:61211/UA/SampleClient/Basic256Sha256 -->
     <BaseAddresses>
-      <ua:String>opc.tcp://localhost:61210/UA/SampleClient</ua:String>
-      <ua:String>https://localhost:61212/UA/SampleClient</ua:String>
+      <ua:String>opc.tcp://localhost:41210/UA/SampleClient</ua:String>
+      <!--<ua:String>https://localhost:61212/UA/SampleClient</ua:String>-->
     </BaseAddresses>
 
     <!-- 
